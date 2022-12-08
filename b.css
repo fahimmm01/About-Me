@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(51, 33, 218);
+}
+.container{
+    text-align: center;
+    
+    
+}
+h1{
+    padding:1rem 0rem;
+    margin:0.5rem 0rem;
+    border-bottom: 1px solid black;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0rem;;
+}
+input{
+    width:30%;
+    padding:0.5rem;
+    border: none;
+    box-shadow: -5px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -5px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 3px 5px 0px rgba(0,0,0,0.75);
+
+    
+    
+}
+input:focus{
+    outline: none;
+}
+#date{
+
+}
+.btn{
+    display:block;
+    margin:1.5rem auto;
+    padding:.4rem 1.5rem;
+    cursor:pointer;
+    background-color:rgb(51, 33, 218) ;
+    color:white;
+    border-radius: 2rem;
+    font-size: large;
+   
+}
+.output{
+    font-size: x-large;
+    display:none;
+}
+/* footer */
+.footer{
+    background-color: rgb(166, 166, 241);
+    color:black;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    padding:1rem 0rem;
+    border-top-left-radius: 3rem;
+}
+.footer-header{
+    font-size: x-large;
+    text-align: center;
+    
+   
+}
+ul{
+    padding: .5rem;
+}
+ul li{
+ display:inline;
+
+ 
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    padding:0.3rem 0.4rem;
+    font-size: large;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+.extranote{
+    text-align: center;
+}
+h4 {
+    color:rgb(53, 42, 42);
+    
+    
+}
+.notice{
+    text-align: center;
+    padding-top: 1rem;
+   
+}
+ @media only screen and (max-width: 600px) {
+    input{
+        width:50%;
+    }
+}  

@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    
+}
+body{
+    overflow-x: hidden !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+:root {
+    --primary-color: #BE185D;
+    --dark-gray: #6B7280;
+    --off-white:rgb(245, 244, 244);
+    --off-dark:black;
+}
+
+body {
+    /* font-family: 'Hahmlet', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 600px;
+
+}
+
+.container {
+    margin: 0 rem 40 rem;
+}
+.container-spread-all{
+    margin: 0 px !important;
+    padding: 0 px !important;
+}
+
+.margin-up-down{
+    margin: 3rem 0rem;
+}
+/* link */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: larger;
+   
+    
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+/* spaces */
+.padding-md {
+    padding: 2rem;
+}
+.margin-md {
+    margin:2rem 0rem;
+}
+.list  p{
+    font-size: larger; 
+}
+
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.6rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+   
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/* header */
+.hero {
+    padding: 1rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-image {
+    max-width: 300px;
+    
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2.3rem;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+.hero .hero-heading .header-heading-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+.section{
+    padding:1.5rem;
+    padding-bottom: 3.5rem;
+    margin-right:0px !important;
+   
+}
+.section h3 {
+    text-align: center;
+    padding: 2rem;
+}
+.section p{
+    margin-bottom: 3rem;
+    font-size: larger;
+    text-align: center;
+}
+
+.ow{
+background-color: var(--off-white);
+
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding:1rem 0rem;
+    text-align: center;
+    border-top-right-radius:1rem ;
+    
+}
+.footer .footer-header{
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    margin: 1rem 0rem;
+}
+.footer .ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link a{
+    color:white;
+    text-decoration: none !important;
+}
+
+
+
+/* blog image */
+.blog-image{
+    height:300px;
+    width:100%;
+}
+/*Blog Para */
+.blog-div{
+    margin:auto;
+    width:900px;
+
+}
+.blog-div p {
+    font-size:large;
+    font-weight: lighter;
+    padding:1rem 0rem;
+    color: var(--off-dark);
+    line-height: 30px;
+}
+
+.list-spaced{
+    padding: 0.5rem 0rem;
+}
+.container-center p{
+    word-spacing: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-item-inline{
+        margin: 0rem 0.2rem;
+    }
+    .section{
+        overflow-wrap: break-word;
+        width:100% !important;
+    }
+    .hero-image {
+        max-width: 200px !important;
+    }
+    .blog-image{
+        max-width: 200px !important;
+    }
+    .link{
+        padding:0.5rem !important;
+    }
+    .navigation{
+        padding:1rem 0rem;
+        margin:0px;
+    }
+    .navigation .nav-pills{
+        text-align: center;
+
+    }
+    .nav-pills{
+        font-size: 16px;
+        padding-top: 1rem;
+    }
+    .nav-brand{
+        padding-left:
+            0.5rem;
+        }
+
+        .blog-div {
+            margin:auto;
+            width: fit-content;
+            overflow-wrap: break-word;
+        width:100% !important;
+        }
+    
+}
+.bold{
+font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.margin-sm-left{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+/* bem naming convention for css */
+/* screen cast mode  */
+/* what is root and relative path */

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    margin: 3rem 0rem;
+    color: rgb(234, 219, 235);
+}
+
+h1 {
+    margin: 4rem 0rem;
+
+}
+
+label {
+    display: block;
+
+}
+
+input {
+    /* display: block; */
+    padding: .8rem .5rem;
+    margin: 1rem 0rem;
+    width: 30%;
+    background: rgb(240, 235, 235);
+    border-radius: 2rem;
+    box-shadow: -8px 9px 6px -9px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -8px 9px 6px -9px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -8px 9px 6px -9px rgba(255, 255, 255, 0.75);
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    width: 30%;
+    margin: 1rem 0rem;
+}
+
+.outputdiv {
+    display: none;
+    font-size: larger;
+}
+
+/* footer */
+.container a {
+    padding: 2rem 1rem;
+    font-size: x-large;
+    color: rgb(215, 90, 226);
+
+}
+
+.container div {
+    margin-top: 1rem;
+
+}
+
+@media only screen and (max-width:600px) {
+
+    input,
+    .btn {
+        width: 50%;
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1>Cash Register App</h1>
+    <div class="container">
+        <h3>Avaliable Currencies: ₹2000, ₹500, ₹100, ₹20, ₹10, ₹5, ₹2, ₹1 </h3>
+
+        <form action="index.html">
+            <label for="billAmt">Bill Amount</label>
+            <input type="number" id="billAmt" placeholder="Enter bill amount" required>
+
+            <button class="btn" id="showWhenBillentered">Enter Cash</button>
+            <div class="cash">
+                <label for="cashGiven">Cash Given</label>
+                <input class="cashGivenInput" type="number" id="cashGiven" placeholder="Enter Cash Given" required>
+
+                <button class="btn" id="btn-calculate" type="submit">Calculate</button>
+                <button class="reset">Reset</button>
+
+                <P id="amnt-returned"> </P>
+        </form>
+
+    </div>
+    <p id="error-msg"></p>
+    </div>
+    <div id="output">
+        <table>
+            <tr>
+                <th>No of notes</th>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+                <td class="returned-note"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <a href="https://github.com/fahimmm01"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mohd-fahim-63100b220/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mohd_fahimmm/"><i class="fa fa-instagram"></i></a> <br>
+            <div>© | Fayum Ansari | 2022 </div>
+
+        </div>
+    </footer>
+    <script src="c.js"></script>
+</body>
+
+</html>
